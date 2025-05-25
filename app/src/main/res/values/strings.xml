@@ -1,0 +1,41 @@
+<resources>
+    <!--Strings generales -->
+    <string name="app_name">trabajoFinGrado</string>
+
+
+    <!--Strings para el login -->
+    <string name="error_campo_requerido">Campo vacio</string>
+    <string name="login_error_credentials">Usuario/contraseña incorrectos, inténtalo de nuevo</string>
+    <string name="login_error_unknown_role">Rol desconocido</string>
+    <string name="login_error_server">Error de servidor</string>
+    <string name="login_error_network">Error de red</string>
+    <string name="user_not_identified_error">Usuario no identificado</string>
+
+    <!--Strings para las mesas -->
+    <string name="no_tables_available">No hay mesas disponibles</string>
+    <string name="server_error">Error de servidor</string>
+    <string name="table_server_error">Fallo en la llamada de la API mesas</string>
+    <string name="table_not_loading_error">Mesas no recibidas</string>
+    <string name="error_activacion_mesa">Mesas no activada</string>
+    <string name="error_red_activacion_mesa">Error de red al activar la mesa</string>
+
+
+    <!--Strings para el dialogo de comensales -->
+    <string name="introducir_comensales_title">Introducir número de comensales</string>
+    <string name="numero_de_comensales_hint">Número de comensales</string>
+    <string name="dialog_aceptar">Aceptar</string>
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="error_comensales_vacio">Debe introducir un número de comensales.</string>
+    <string name="error_comensales_no_valido">Número de comensales no válido.</string>
+    <string name="capacidad_mesa_placeholder">Capacidad: %d</string>
+    <string name="info_mesa_placeholder">Mesa: %d</string>
+
+    <!--Strings para el dialogo de comensales -->
+    <string name="delete_selected_item_desc">Borrar item seleccionado</string>
+
+
+
+
+
+
+    </resources>

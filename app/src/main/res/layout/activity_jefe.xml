@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".jefe.JefeActivity">
+
+    <LinearLayout
+        android:id="@+id/upperButtonLayout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/manageTableButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside">
+
+        <ImageButton
+            android:id="@+id/dropDownMenuButtonJefe"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/_barras" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:gravity="center"
+            android:text="Chef Restaurant PDA"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/manageTableButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9A71A"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="Gestiona Mesas"
+        android:textColor="#070707"
+        android:textSize="28sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/manageDrinkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upperButtonLayout" />
+
+    <Button
+        android:id="@+id/manageFoodButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#F9A71A"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="Gestiona Comida"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manageDrinkButton" />
+
+    <Button
+        android:id="@+id/manageDrinkButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#F9A71A"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="Gestiona Bebida"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/manageFoodButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manageTableButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

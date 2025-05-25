@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="mesa_libre">#95FF99</color>
+    <color name="mesa_ocupada">#FFB9B8</color>
+    <color name="mesa_borde_defecto">#CCCCCC</color>
+    <color name="selected_item_highlight">#E0E0E0</color>
+    <color name="item_sent_background">#6EFF73</color>
+</resources>
